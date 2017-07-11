@@ -1,0 +1,10 @@
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+body{
+ background-image: url("space-dog.jpg");
+ background-size: 100%;
+ color: white;
+}
