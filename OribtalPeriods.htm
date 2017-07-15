@@ -43,15 +43,15 @@
       <div class="row">
         <div class="col-sm-12">
             <!-- Trigger the modal with a button -->
-          <button style="margin: 1em 0 1em 0" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Underlying Theory</button>
-            <!-- Modal -->
+          <button style="margin: 1em 0 1em 0" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">What is an oribtal period?</button>
+          <!-- Modal -->
           <div id="myModal" class="modal fade" role="dialog" tabindex="-1">
             <div class="modal-dialog">
                 <!-- Modal content-->
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h3 class="modal-title">Permutations</h3>
+                  <h3 class="modal-title">What is an oribtal period?</h3>
                 </div>
                 <div class="modal-body">
                   <p>A permutation is a configuration of a set. All the permutations for a given set of items are
@@ -95,31 +95,30 @@
 <!-- User Input -->
     <div class="container text-center">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
+          <h2 class="text-center">Satelite's Name</h2>
           <div class="form-group">
-            <input id="str" placeholder="Input string here, please" type="text" class="form-control" id="usr">
+            <input id="name" placeholder="e.g., Sputnik" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2 class="text-center">Satelite's Average Altitude (km)</h2>
+          <div class="form-group">
+            <input id="altitude" placeholder="e.g., 35873.5553" type="text" class="form-control">
           </div>
         </div>
       </div>
    </div>
 
-<!-- Duplication Checkbox -->
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="checkbox">
-            <label><input id="subtractDuplicates" type="checkbox" value=""> Subtract duplicate permutations (if any) </label>
-          </div>
-        </div>
-      </div>
 
 <!--The Master Div That Will House All Dynamically Created Divs-->
       <div id="masterDiv">
 
       </div>
+
       <div class="row">
         <div class="col-sm-12">
-          <button id="permuteBtn" type="button" class="btn btn-block btn-success btn-lg">Permute</button>
+          <button id="calculateBtn" type="button" class="btn btn-block btn-success btn-lg">Calculate</button>
         </div>
       </div>
       <div class="col-12">
