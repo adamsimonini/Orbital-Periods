@@ -5,6 +5,9 @@ margin: 0 auto;
 
 body{
  background-image: url("space-dog.jpg");
- background-size: 100%;
  color: white;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
 }
