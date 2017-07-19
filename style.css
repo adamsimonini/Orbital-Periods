@@ -3,6 +3,7 @@ float: none;
 margin: 0 auto;
 }
 
+
 body{
  background-image: url("space-dog.jpg");
  color: white;
@@ -10,4 +11,426 @@ body{
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
+ min-height: 800px;
+}
+h2{
+  font-size: 1.5em;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Bottom of button */
+  right: 0;
+  margin-left: -100px; /* More to the left */
+}
+
+/*Container for */
+.animationContainer{
+  position: relative;
+  min-height: 800px;
+}
+
+.earth{
+  width: 8em;
+  z-index: 1;
+  position: absolute;
+  left: 46.5%;
+  top: 43%;
+}
+
+.satelliteSize{
+  width: 2em;
+  z-index: -1;
+}
+
+                                      /* CSS Class Used For All satellites*/
+
+/* satellite 1*/
+.satellite1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit1 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit1 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit1 4s linear infinite; /* Opera 12+ */
+            animation: myOrbit1 4s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit1 {
+    from { -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit1 {
+    from { -moz-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit1 {
+    from { -o-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+/* satellite 2*/
+.satellite2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit2 5s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit2 5s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit2 5s linear infinite; /* Opera 12+ */
+            animation: myOrbit2 5s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit2 {
+    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit2 {
+    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit2 {
+    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+/* satellite 2*/
+.satellite3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit3 6s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit3 6s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit3 6s linear infinite; /* Opera 12+ */
+            animation: myOrbit3 6s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit3 {
+    from { -webkit-transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit3 {
+    from { -moz-transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit3 {
+    from { -o-transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+/* satellite 4*/
+.satellite4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit4 7s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit4 7s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit4 7s linear infinite; /* Opera 12+ */
+            animation: myOrbit4 7s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit4 {
+    from { -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit4 {
+    from { -moz-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit4 {
+    from { -o-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+@keyframes myOrbmyOrbit4it {
+    from { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+/* satellite 5*/
+.satellite5 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit5 8s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit5 8s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit5 8s linear infinite; /* Opera 12+ */
+            animation: myOrbit5 8s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit5 {
+    from { -webkit-transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit5 {
+    from { -moz-transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit5 {
+    from { -o-transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+@keyframes myOrbit5 {
+    from { transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+/* satellite 6*/
+.satellite6 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbit6 9s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit6 9s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit6 9s linear infinite; /* Opera 12+ */
+            animation: myOrbit6 9s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit6 {
+    from { -webkit-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit6 {
+    from { -moz-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit6 {
+    from { -o-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@keyframes myOrbit6 {
+    from { transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+/*SPECIAL SHIP ROTATION*/
+
+/* SHIP 1*/
+.ship1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip1 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip1 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip1 4s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip1 4s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip1 {
+    from { -webkit-transform: rotate(0deg) translateX(100px); }
+    to   { -webkit-transform: rotate(360deg) translateX(100px); }
+}
+
+@-moz-keyframes myOrbitShip1 {
+    from { -moz-transform: rotate(0deg) translateX(100px); }
+    to   { -moz-transform: rotate(360deg) translateX(100px); }
+}
+
+@-o-keyframes myOrbitShip1 {
+    from { -o-transform: rotate(0deg) translateX(100px); }
+    to   { -o-transform: rotate(360deg) translateX(100px); }
+}
+
+@keyframes myOrbitShip1 {
+    from { transform: rotate(0deg) translateX(100px); }
+    to   { transform: rotate(360deg) translateX(100px); }
+}
+
+/* SHIP 2*/
+.ship2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip2 5s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip2 5s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip2 5s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip2 5s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip2 {
+    from { -webkit-transform: rotate(0deg) translateX(150px); }
+    to   { -webkit-transform: rotate(360deg) translateX(150px); }
+}
+
+@-moz-keyframes myOrbitShip2 {
+    from { -moz-transform: rotate(0deg) translateX(150px); }
+    to   { -moz-transform: rotate(360deg) translateX(150px); }
+}
+
+@-o-keyframes myOrbitShip2 {
+    from { -o-transform: rotate(0deg) translateX(150px); }
+    to   { -o-transform: rotate(360deg) translateX(150px); }
+}
+
+@keyframes myOrbitShip2 {
+    from { transform: rotate(0deg) translateX(150px); }
+    to   { transform: rotate(360deg) translateX(150px); }
+}
+
+/* SHIP 3*/
+.ship3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip3 6s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip3 6s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip3 6s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip3 6s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip3 {
+    from { -webkit-transform: rotate(0deg) translateX(200px); }
+    to   { -webkit-transform: rotate(360deg) translateX(200px); }
+}
+
+@-moz-keyframes myOrbitShip3 {
+    from { -moz-transform: rotate(0deg) translateX(200px); }
+    to   { -moz-transform: rotate(360deg) translateX(200px); }
+}
+
+@-o-keyframes myOrbitShip3 {
+    from { -o-transform: rotate(0deg) translateX(200px); }
+    to   { -o-transform: rotate(360deg) translateX(200px); }
+}
+
+@keyframes myOrbitShip3 {
+    from { transform: rotate(0deg) translateX(200px); }
+    to   { transform: rotate(360deg) translateX(200px); }
+}
+
+/* SHIP 4*/
+.ship4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip4 7s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip4 7s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip4 7s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip4 7s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip4 {
+    from { -webkit-transform: rotate(0deg) translateX(250px); }
+    to   { -webkit-transform: rotate(360deg) translateX(250px); }
+}
+
+@-moz-keyframes myOrbitShip4 {
+    from { -moz-transform: rotate(0deg) translateX(250px); }
+    to   { -moz-transform: rotate(360deg) translateX(250px); }
+}
+
+@-o-keyframes myOrbitShip4 {
+    from { -o-transform: rotate(0deg) translateX(250px); }
+    to   { -o-transform: rotate(360deg) translateX(250px); }
+}
+
+@keyframes myOrbitShip4 {
+    from { transform: rotate(0deg) translateX(250px); }
+    to   { transform: rotate(360deg) translateX(250px); }
+}
+
+/* SHIP 5*/
+.ship5 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip5 8s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip5 8s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip5 8s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip5 8s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip5 {
+    from { -webkit-transform: rotate(0deg) translateX(300px); }
+    to   { -webkit-transform: rotate(360deg) translateX(300px); }
+}
+
+@-moz-keyframes myOrbitShip5 {
+    from { -moz-transform: rotate(0deg) translateX(300px); }
+    to   { -moz-transform: rotate(360deg) translateX(300px); }
+}
+
+@-o-keyframes myOrbitShip5 {
+    from { -o-transform: rotate(0deg) translateX(300px); }
+    to   { -o-transform: rotate(360deg) translateX(300px); }
+}
+
+@keyframes myOrbitShip5 {
+    from { transform: rotate(0deg) translateX(300px); }
+    to   { transform: rotate(360deg) translateX(300px); }
+}
+
+/* SHIP 6*/
+.ship6 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: myOrbitShip6 9s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbitShip6 9s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbitShip6 9s linear infinite; /* Opera 12+ */
+            animation: myOrbitShip6 9s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbitShip6 {
+    from { -webkit-transform: rotate(0deg) translateX(350px); }
+    to   { -webkit-transform: rotate(360deg) translateX(350px); }
+}
+
+@-moz-keyframes myOrbitShip6 {
+    from { -moz-transform: rotate(0deg) translateX(350px); }
+    to   { -moz-transform: rotate(360deg) translateX(350px); }
+}
+
+@-o-keyframes myOrbitShip6 {
+    from { -o-transform: rotate(0deg) translateX(350px); }
+    to   { -o-transform: rotate(360deg) translateX(350px); }
+}
+
+@keyframes myOrbitShip6 {
+    from { transform: rotate(0deg) translateX(350px); }
+    to   { transform: rotate(360deg) translateX(350px); }
 }
