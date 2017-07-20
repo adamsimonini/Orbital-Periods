@@ -63,7 +63,7 @@ $(document).ready(function(){
   function animateSatellite(satellite, num){
     var animatedSat = document.createElement("div");
     animatedSat.id = satellite.name;
-    animatedSat.innerHTML = "<img src=" + satellite.type + ".png class='satelliteSize'><p>" + satellite.name + "</p>";
+    animatedSat.innerHTML = "<img src=" + satellite.type.toLowerCase() + ".png class='satelliteSize'><p>" + satellite.name + "</p>";
     var test = satellite.type;
 // Ternary Operater Applying Correct CSS Class to Div
     test === "Planet" || test === "Moon" || test === "Star" || test === "Satellite" ? animatedSat.setAttribute("class", "satellite" + num.toString()) :
@@ -124,10 +124,9 @@ $(document).ready(function(){
    });
 
   //  Cause "satellite's Type" dropdown menu to display selected value
-  $("#satelliteTypeDropDown li a").click(function(){
-    $("#satelliteTypeBtn:first-child").html($(this).text()+' <span class="caret"></span>');
+  $(".dropdown-menu li a").click(function(){
+    $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
   });
 
 });
-
-//   orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);

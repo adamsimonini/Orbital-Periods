@@ -3,7 +3,6 @@ float: none;
 margin: 0 auto;
 }
 
-
 body{
  background-image: url("space-dog.jpg");
  color: white;
@@ -17,6 +16,10 @@ h2{
   font-size: 1.5em;
 }
 
+.modal-content{
+  color: black !important;
+}
+
 .dropdown-container {
   position: relative;
 }
@@ -24,8 +27,6 @@ h2{
 .dropdown-menu {
   position: absolute;
   top: 100%; /* Bottom of button */
-  right: 0;
-  margin-left: -100px; /* More to the left */
 }
 
 /*Container for */
